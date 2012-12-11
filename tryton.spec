@@ -41,3 +41,10 @@ NDONTWRITEBYTECODE=  python setup.py install --root=%{buildroot}
 %files -n python-%{name}
 %doc CHANGELOG COPYRIGHT README TODO
 %{py_sitedir}/*
+
+
+%changelog
+* Thu Apr 19 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 2.2.1-1
++ Revision: 792125
+- imported package tryton
+
